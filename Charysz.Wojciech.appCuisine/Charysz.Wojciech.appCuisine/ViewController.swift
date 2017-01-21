@@ -63,6 +63,9 @@ class ViewController: UITableViewController {
             cell.cameraImageView.sd_setImage(with: url)
         }
         
+        //cells with an odd index use a different background color.
+        cell.backgroundColor = indexPath.row % 2 == 0 ? nil : UIColor.green
+        
         return cell
     }
 
