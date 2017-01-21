@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27E4B5B876D5CD70DC5AC011 /* Pods_Charysz_Wojciech_appCuisine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D6A038CE91FF0DD6E11557 /* Pods_Charysz_Wojciech_appCuisine.framework */; };
 		EC29452C1E326AF6003E5A59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29452B1E326AF6003E5A59 /* AppDelegate.swift */; };
 		EC29452E1E326AF6003E5A59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29452D1E326AF6003E5A59 /* ViewController.swift */; };
 		EC2945311E326AF6003E5A59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC29452F1E326AF6003E5A59 /* Main.storyboard */; };
@@ -26,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24D6A038CE91FF0DD6E11557 /* Pods_Charysz_Wojciech_appCuisine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Charysz_Wojciech_appCuisine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3306F8BDC9DC5E4A618765C3 /* Pods-Charysz.Wojciech.appCuisine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charysz.Wojciech.appCuisine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Charysz.Wojciech.appCuisine/Pods-Charysz.Wojciech.appCuisine.release.xcconfig"; sourceTree = "<group>"; };
+		DDC0FD5F38BD48281A5D240B /* Pods-Charysz.Wojciech.appCuisine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charysz.Wojciech.appCuisine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Charysz.Wojciech.appCuisine/Pods-Charysz.Wojciech.appCuisine.debug.xcconfig"; sourceTree = "<group>"; };
 		EC2945281E326AF6003E5A59 /* Charysz.Wojciech.appCuisine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charysz.Wojciech.appCuisine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC29452B1E326AF6003E5A59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC29452D1E326AF6003E5A59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E4B5B876D5CD70DC5AC011 /* Pods_Charysz_Wojciech_appCuisine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		796A87AF9FD1C14DB048B492 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24D6A038CE91FF0DD6E11557 /* Pods_Charysz_Wojciech_appCuisine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B00306E23D830DE6E5817248 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDC0FD5F38BD48281A5D240B /* Pods-Charysz.Wojciech.appCuisine.debug.xcconfig */,
+				3306F8BDC9DC5E4A618765C3 /* Pods-Charysz.Wojciech.appCuisine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EC29451F1E326AF6003E5A59 = {
 			isa = PBXGroup;
 			children = (
 				EC29452A1E326AF6003E5A59 /* Charysz.Wojciech.appCuisine */,
 				EC29453F1E326AF6003E5A59 /* Charysz.Wojciech.appCuisineTests */,
 				EC2945291E326AF6003E5A59 /* Products */,
+				B00306E23D830DE6E5817248 /* Pods */,
+				796A87AF9FD1C14DB048B492 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC2945451E326AF6003E5A59 /* Build configuration list for PBXNativeTarget "Charysz.Wojciech.appCuisine" */;
 			buildPhases = (
+				4E00244B36D549F4126D5BBB /* [CP] Check Pods Manifest.lock */,
 				EC2945241E326AF6003E5A59 /* Sources */,
 				EC2945251E326AF6003E5A59 /* Frameworks */,
 				EC2945261E326AF6003E5A59 /* Resources */,
+				6312EC05311552610E59F2CB /* [CP] Embed Pods Frameworks */,
+				0CD40BE0975D6B5FC7C0394E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +244,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD40BE0975D6B5FC7C0394E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Charysz.Wojciech.appCuisine/Pods-Charysz.Wojciech.appCuisine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E00244B36D549F4126D5BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6312EC05311552610E59F2CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Charysz.Wojciech.appCuisine/Pods-Charysz.Wojciech.appCuisine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC2945241E326AF6003E5A59 /* Sources */ = {
@@ -359,6 +434,7 @@
 		};
 		EC2945461E326AF6003E5A59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC0FD5F38BD48281A5D240B /* Pods-Charysz.Wojciech.appCuisine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Charysz.Wojciech.appCuisine/Info.plist;
@@ -371,6 +447,7 @@
 		};
 		EC2945471E326AF6003E5A59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3306F8BDC9DC5E4A618765C3 /* Pods-Charysz.Wojciech.appCuisine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Charysz.Wojciech.appCuisine/Info.plist;
