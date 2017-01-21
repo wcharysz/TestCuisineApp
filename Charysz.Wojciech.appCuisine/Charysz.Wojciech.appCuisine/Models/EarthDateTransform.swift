@@ -12,10 +12,11 @@ import ObjectMapper
 class EarthDateTransform: DateFormatterTransform {
     
     static let dateFormat = "yyyy-MM-dd"
+    static let locale = Locale(identifier: "en_US_POSIX")
  
     public init() {
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "en_US_POSIX")
+        formatter.locale = EarthDateTransform.locale
         formatter.dateFormat = EarthDateTransform.dateFormat
         
         super.init(dateFormatter: formatter)
