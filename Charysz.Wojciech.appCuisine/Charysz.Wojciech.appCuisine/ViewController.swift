@@ -68,7 +68,18 @@ class ViewController: UITableViewController {
         
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath) as? NasaMarsRoverTableViewCell
+        performSegue(withIdentifier: "DetailViewSegue", sender: cell?.cameraImageView.image)
+    }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let viewController = segue.destination as? DetailViewController, let image = sender as? UIImage {
+            viewController.detailImage = image
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

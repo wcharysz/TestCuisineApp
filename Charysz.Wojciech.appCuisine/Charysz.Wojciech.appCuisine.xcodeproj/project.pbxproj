@@ -18,6 +18,7 @@
 		EC2945511E332DEE003E5A59 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945501E332DEE003E5A59 /* Photo.swift */; };
 		EC2945541E332FE7003E5A59 /* EarthDateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945531E332FE7003E5A59 /* EarthDateTransform.swift */; };
 		EC2945561E3338DF003E5A59 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945551E3338DF003E5A59 /* NetworkController.swift */; };
+		EC2945581E336040003E5A59 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945571E336040003E5A59 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		EC2945501E332DEE003E5A59 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		EC2945531E332FE7003E5A59 /* EarthDateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthDateTransform.swift; sourceTree = "<group>"; };
 		EC2945551E3338DF003E5A59 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		EC2945571E336040003E5A59 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,8 +152,9 @@
 		EC29454D1E326B1A003E5A59 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EC29452D1E326AF6003E5A59 /* ViewController.swift */,
 				EC2945551E3338DF003E5A59 /* NetworkController.swift */,
+				EC29452D1E326AF6003E5A59 /* ViewController.swift */,
+				EC2945571E336040003E5A59 /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				EC29454F1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift in Sources */,
 				EC29452E1E326AF6003E5A59 /* ViewController.swift in Sources */,
 				EC29452C1E326AF6003E5A59 /* AppDelegate.swift in Sources */,
+				EC2945581E336040003E5A59 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
