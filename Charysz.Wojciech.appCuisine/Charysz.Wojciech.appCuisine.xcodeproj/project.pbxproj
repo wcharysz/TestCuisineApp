@@ -15,6 +15,8 @@
 		EC2945361E326AF6003E5A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2945341E326AF6003E5A59 /* LaunchScreen.storyboard */; };
 		EC2945411E326AF6003E5A59 /* Charysz_Wojciech_appCuisineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945401E326AF6003E5A59 /* Charysz_Wojciech_appCuisineTests.swift */; };
 		EC29454F1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29454E1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift */; };
+		EC2945511E332DEE003E5A59 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945501E332DEE003E5A59 /* Photo.swift */; };
+		EC2945541E332FE7003E5A59 /* EarthDateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945531E332FE7003E5A59 /* EarthDateTransform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		EC2945401E326AF6003E5A59 /* Charysz_Wojciech_appCuisineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charysz_Wojciech_appCuisineTests.swift; sourceTree = "<group>"; };
 		EC2945421E326AF6003E5A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC29454E1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NasaMarsRoverTableViewCell.swift; sourceTree = "<group>"; };
+		EC2945501E332DEE003E5A59 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		EC2945531E332FE7003E5A59 /* EarthDateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthDateTransform.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 		EC29454B1E326B01003E5A59 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EC2945501E332DEE003E5A59 /* Photo.swift */,
+				EC2945531E332FE7003E5A59 /* EarthDateTransform.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -301,6 +307,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2945511E332DEE003E5A59 /* Photo.swift in Sources */,
+				EC2945541E332FE7003E5A59 /* EarthDateTransform.swift in Sources */,
 				EC29454F1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift in Sources */,
 				EC29452E1E326AF6003E5A59 /* ViewController.swift in Sources */,
 				EC29452C1E326AF6003E5A59 /* AppDelegate.swift in Sources */,
