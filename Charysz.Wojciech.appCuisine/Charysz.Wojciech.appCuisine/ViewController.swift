@@ -8,6 +8,7 @@
 
 import UIKit
 import SDWebImage
+import PullToRefresh
 
 class ViewController: UITableViewController {
     
@@ -19,10 +20,24 @@ class ViewController: UITableViewController {
         formatter.dateFormat = "yyyy-MM-dd"
         return formatter
     }()
+    
+    deinit {
+        if let refresher = tableView.topPullToRefresh {
+            tableView.removePullToRefresh(refresher)
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tableView.addPullToRefresh(PullToRefresh()) { 
+            self.downloadPhotos()
+        }
+        
+        downloadPhotos()
+    }
+    
+    func downloadPhotos() {
         let api = NetworkController()
         api.downloadNASARoverPhotos { (photos) in
             self.photos = photos
