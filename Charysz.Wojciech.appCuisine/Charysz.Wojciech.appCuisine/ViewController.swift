@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class ViewController: UITableViewController {
     
@@ -43,6 +44,10 @@ class ViewController: UITableViewController {
         
         if let date = photo?.earth_date {
             cell.earthDateLabel.text = dateFormatter.string(from: date)
+        }
+        
+        if let url = photo?.img_src {
+            cell.cameraImageView.sd_setImage(with: url)
         }
         
         return cell
