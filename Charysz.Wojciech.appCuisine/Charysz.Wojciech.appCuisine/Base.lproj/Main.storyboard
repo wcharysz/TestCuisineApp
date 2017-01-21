@@ -69,6 +69,12 @@
                             <outlet property="delegate" destination="tQR-qy-1bt" id="X0D-pF-Weu"/>
                         </connections>
                     </tableView>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="IKA-4i-y2c">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <action selector="handleRefreshWithRefreshControl:" destination="tQR-qy-1bt" eventType="valueChanged" id="HDd-Nc-Hr0"/>
+                        </connections>
+                    </refreshControl>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BZK-vI-fO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -6,5 +6,4 @@ target 'Charysz.Wojciech.appCuisine' do
   pod 'ObjectMapper'
   pod 'AlamofireObjectMapper'
   pod 'SDWebImage'
-  pod 'PullToRefresher'
 end
