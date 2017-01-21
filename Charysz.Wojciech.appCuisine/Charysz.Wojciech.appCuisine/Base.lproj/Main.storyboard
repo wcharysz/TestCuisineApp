@@ -27,13 +27,13 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4q-xe-EQA">
-                                            <rect key="frame" x="8" y="0.0" width="271" height="21"/>
+                                            <rect key="frame" x="8" y="0.0" width="42" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8XM-pZ-0jy">
-                                            <rect key="frame" x="8" y="19" width="271" height="21"/>
+                                            <rect key="frame" x="8" y="19" width="42" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -41,21 +41,19 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gmJ-yf-7BY">
                                             <rect key="frame" x="287" y="1" width="80" height="80"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="80" id="AYB-YS-8DI"/>
-                                                <constraint firstAttribute="width" secondItem="gmJ-yf-7BY" secondAttribute="height" multiplier="1:1" id="w6c-6O-M6X"/>
+                                                <constraint firstAttribute="height" constant="80" id="sQ1-Uy-biE"/>
+                                                <constraint firstAttribute="width" secondItem="gmJ-yf-7BY" secondAttribute="height" multiplier="1:1" id="vHt-fn-7pM"/>
                                             </constraints>
                                         </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="gmJ-yf-7BY" secondAttribute="trailing" constant="8" id="2ZM-Ak-Zek"/>
-                                        <constraint firstItem="gmJ-yf-7BY" firstAttribute="leading" secondItem="N4q-xe-EQA" secondAttribute="trailing" constant="8" id="3Z4-DF-jOt"/>
                                         <constraint firstItem="8XM-pZ-0jy" firstAttribute="trailing" secondItem="N4q-xe-EQA" secondAttribute="trailing" id="76K-oy-nT2"/>
+                                        <constraint firstItem="gmJ-yf-7BY" firstAttribute="leading" secondItem="8XM-pZ-0jy" secondAttribute="leading" constant="279" id="BPg-yK-j8l"/>
                                         <constraint firstItem="8XM-pZ-0jy" firstAttribute="top" secondItem="N4q-xe-EQA" secondAttribute="top" constant="19" id="Bd6-lY-olv"/>
                                         <constraint firstItem="N4q-xe-EQA" firstAttribute="top" secondItem="Oon-z1-cay" secondAttribute="top" id="K93-ew-ucq"/>
                                         <constraint firstAttribute="bottom" secondItem="8XM-pZ-0jy" secondAttribute="bottom" constant="43" id="KWn-qk-TaX"/>
                                         <constraint firstItem="8XM-pZ-0jy" firstAttribute="leading" secondItem="Oon-z1-cay" secondAttribute="leading" constant="8" id="e7l-oS-8OE"/>
-                                        <constraint firstAttribute="bottom" secondItem="gmJ-yf-7BY" secondAttribute="bottom" constant="2" id="f8w-oc-KLQ"/>
-                                        <constraint firstItem="gmJ-yf-7BY" firstAttribute="top" secondItem="Oon-z1-cay" secondAttribute="top" constant="1" id="gqL-uS-SsJ"/>
+                                        <constraint firstItem="gmJ-yf-7BY" firstAttribute="centerY" secondItem="Oon-z1-cay" secondAttribute="centerY" id="gpO-AP-5SZ"/>
                                         <constraint firstItem="N4q-xe-EQA" firstAttribute="leading" secondItem="Oon-z1-cay" secondAttribute="leading" constant="8" id="npM-7z-euB"/>
                                     </constraints>
                                 </tableViewCellContentView>
