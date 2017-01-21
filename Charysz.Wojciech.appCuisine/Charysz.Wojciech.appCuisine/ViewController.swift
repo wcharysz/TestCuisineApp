@@ -16,7 +16,7 @@ class ViewController: UITableViewController {
     lazy var dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "en_US_POSIX")
-        formatter.dateFormat = "yyyy-MM-dd"
+        formatter.dateFormat = EarthDateTransform.dateFormat
         return formatter
     }()
 
