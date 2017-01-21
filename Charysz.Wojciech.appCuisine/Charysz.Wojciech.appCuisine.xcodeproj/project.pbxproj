@@ -17,6 +17,7 @@
 		EC29454F1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29454E1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift */; };
 		EC2945511E332DEE003E5A59 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945501E332DEE003E5A59 /* Photo.swift */; };
 		EC2945541E332FE7003E5A59 /* EarthDateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945531E332FE7003E5A59 /* EarthDateTransform.swift */; };
+		EC2945561E3338DF003E5A59 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945551E3338DF003E5A59 /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		EC29454E1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NasaMarsRoverTableViewCell.swift; sourceTree = "<group>"; };
 		EC2945501E332DEE003E5A59 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		EC2945531E332FE7003E5A59 /* EarthDateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthDateTransform.swift; sourceTree = "<group>"; };
+		EC2945551E3338DF003E5A59 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				EC29452D1E326AF6003E5A59 /* ViewController.swift */,
+				EC2945551E3338DF003E5A59 /* NetworkController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			files = (
 				EC2945511E332DEE003E5A59 /* Photo.swift in Sources */,
 				EC2945541E332FE7003E5A59 /* EarthDateTransform.swift in Sources */,
+				EC2945561E3338DF003E5A59 /* NetworkController.swift in Sources */,
 				EC29454F1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift in Sources */,
 				EC29452E1E326AF6003E5A59 /* ViewController.swift in Sources */,
 				EC29452C1E326AF6003E5A59 /* AppDelegate.swift in Sources */,
