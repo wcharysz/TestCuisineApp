@@ -1,0 +1,6 @@
+framework module Pods_Charysz_Wojciech_appCuisine {
+  umbrella header "Pods-Charysz.Wojciech.appCuisine-umbrella.h"
+
+  export *
+  module * { export * }
+}

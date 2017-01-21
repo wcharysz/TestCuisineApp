@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27E4B5B876D5CD70DC5AC011 /* Pods_Charysz_Wojciech_appCuisine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D6A038CE91FF0DD6E11557 /* Pods_Charysz_Wojciech_appCuisine.framework */; };
+		EC29452C1E326AF6003E5A59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29452B1E326AF6003E5A59 /* AppDelegate.swift */; };
+		EC29452E1E326AF6003E5A59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29452D1E326AF6003E5A59 /* ViewController.swift */; };
+		EC2945311E326AF6003E5A59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC29452F1E326AF6003E5A59 /* Main.storyboard */; };
+		EC2945331E326AF6003E5A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2945321E326AF6003E5A59 /* Assets.xcassets */; };
+		EC2945361E326AF6003E5A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2945341E326AF6003E5A59 /* LaunchScreen.storyboard */; };
+		EC2945411E326AF6003E5A59 /* Charysz_Wojciech_appCuisineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945401E326AF6003E5A59 /* Charysz_Wojciech_appCuisineTests.swift */; };
+		EC29454F1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29454E1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift */; };
+		EC2945511E332DEE003E5A59 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945501E332DEE003E5A59 /* Photo.swift */; };
+		EC2945541E332FE7003E5A59 /* EarthDateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945531E332FE7003E5A59 /* EarthDateTransform.swift */; };
+		EC2945561E3338DF003E5A59 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945551E3338DF003E5A59 /* NetworkController.swift */; };
+		EC2945581E336040003E5A59 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2945571E336040003E5A59 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC29453D1E326AF6003E5A59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2945201E326AF6003E5A59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2945271E326AF6003E5A59;
+			remoteInfo = Charysz.Wojciech.appCuisine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24D6A038CE91FF0DD6E11557 /* Pods_Charysz_Wojciech_appCuisine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Charysz_Wojciech_appCuisine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3306F8BDC9DC5E4A618765C3 /* Pods-Charysz.Wojciech.appCuisine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charysz.Wojciech.appCuisine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Charysz.Wojciech.appCuisine/Pods-Charysz.Wojciech.appCuisine.release.xcconfig"; sourceTree = "<group>"; };
+		DDC0FD5F38BD48281A5D240B /* Pods-Charysz.Wojciech.appCuisine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charysz.Wojciech.appCuisine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Charysz.Wojciech.appCuisine/Pods-Charysz.Wojciech.appCuisine.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2945281E326AF6003E5A59 /* Charysz.Wojciech.appCuisine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charysz.Wojciech.appCuisine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC29452B1E326AF6003E5A59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC29452D1E326AF6003E5A59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		EC2945301E326AF6003E5A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2945321E326AF6003E5A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2945351E326AF6003E5A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC2945371E326AF6003E5A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC29453C1E326AF6003E5A59 /* Charysz.Wojciech.appCuisineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Charysz.Wojciech.appCuisineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2945401E326AF6003E5A59 /* Charysz_Wojciech_appCuisineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charysz_Wojciech_appCuisineTests.swift; sourceTree = "<group>"; };
+		EC2945421E326AF6003E5A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC29454E1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NasaMarsRoverTableViewCell.swift; sourceTree = "<group>"; };
+		EC2945501E332DEE003E5A59 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		EC2945531E332FE7003E5A59 /* EarthDateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthDateTransform.swift; sourceTree = "<group>"; };
+		EC2945551E3338DF003E5A59 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		EC2945571E336040003E5A59 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2945251E326AF6003E5A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E4B5B876D5CD70DC5AC011 /* Pods_Charysz_Wojciech_appCuisine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2945391E326AF6003E5A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		796A87AF9FD1C14DB048B492 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24D6A038CE91FF0DD6E11557 /* Pods_Charysz_Wojciech_appCuisine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B00306E23D830DE6E5817248 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDC0FD5F38BD48281A5D240B /* Pods-Charysz.Wojciech.appCuisine.debug.xcconfig */,
+				3306F8BDC9DC5E4A618765C3 /* Pods-Charysz.Wojciech.appCuisine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC29451F1E326AF6003E5A59 = {
+			isa = PBXGroup;
+			children = (
+				EC29452A1E326AF6003E5A59 /* Charysz.Wojciech.appCuisine */,
+				EC29453F1E326AF6003E5A59 /* Charysz.Wojciech.appCuisineTests */,
+				EC2945291E326AF6003E5A59 /* Products */,
+				B00306E23D830DE6E5817248 /* Pods */,
+				796A87AF9FD1C14DB048B492 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2945291E326AF6003E5A59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2945281E326AF6003E5A59 /* Charysz.Wojciech.appCuisine.app */,
+				EC29453C1E326AF6003E5A59 /* Charysz.Wojciech.appCuisineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC29452A1E326AF6003E5A59 /* Charysz.Wojciech.appCuisine */ = {
+			isa = PBXGroup;
+			children = (
+				EC29454B1E326B01003E5A59 /* Models */,
+				EC29454C1E326B0D003E5A59 /* Views */,
+				EC29454D1E326B1A003E5A59 /* Controllers */,
+				EC29452B1E326AF6003E5A59 /* AppDelegate.swift */,
+				EC29452F1E326AF6003E5A59 /* Main.storyboard */,
+				EC2945321E326AF6003E5A59 /* Assets.xcassets */,
+				EC2945341E326AF6003E5A59 /* LaunchScreen.storyboard */,
+				EC2945371E326AF6003E5A59 /* Info.plist */,
+			);
+			path = Charysz.Wojciech.appCuisine;
+			sourceTree = "<group>";
+		};
+		EC29453F1E326AF6003E5A59 /* Charysz.Wojciech.appCuisineTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2945401E326AF6003E5A59 /* Charysz_Wojciech_appCuisineTests.swift */,
+				EC2945421E326AF6003E5A59 /* Info.plist */,
+			);
+			path = Charysz.Wojciech.appCuisineTests;
+			sourceTree = "<group>";
+		};
+		EC29454B1E326B01003E5A59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC2945501E332DEE003E5A59 /* Photo.swift */,
+				EC2945531E332FE7003E5A59 /* EarthDateTransform.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC29454C1E326B0D003E5A59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC29454E1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC29454D1E326B1A003E5A59 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC2945551E3338DF003E5A59 /* NetworkController.swift */,
+				EC29452D1E326AF6003E5A59 /* ViewController.swift */,
+				EC2945571E336040003E5A59 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2945271E326AF6003E5A59 /* Charysz.Wojciech.appCuisine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2945451E326AF6003E5A59 /* Build configuration list for PBXNativeTarget "Charysz.Wojciech.appCuisine" */;
+			buildPhases = (
+				4E00244B36D549F4126D5BBB /* [CP] Check Pods Manifest.lock */,
+				EC2945241E326AF6003E5A59 /* Sources */,
+				EC2945251E326AF6003E5A59 /* Frameworks */,
+				EC2945261E326AF6003E5A59 /* Resources */,
+				6312EC05311552610E59F2CB /* [CP] Embed Pods Frameworks */,
+				0CD40BE0975D6B5FC7C0394E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Charysz.Wojciech.appCuisine;
+			productName = Charysz.Wojciech.appCuisine;
+			productReference = EC2945281E326AF6003E5A59 /* Charysz.Wojciech.appCuisine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC29453B1E326AF6003E5A59 /* Charysz.Wojciech.appCuisineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2945481E326AF6003E5A59 /* Build configuration list for PBXNativeTarget "Charysz.Wojciech.appCuisineTests" */;
+			buildPhases = (
+				EC2945381E326AF6003E5A59 /* Sources */,
+				EC2945391E326AF6003E5A59 /* Frameworks */,
+				EC29453A1E326AF6003E5A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC29453E1E326AF6003E5A59 /* PBXTargetDependency */,
+			);
+			name = Charysz.Wojciech.appCuisineTests;
+			productName = Charysz.Wojciech.appCuisineTests;
+			productReference = EC29453C1E326AF6003E5A59 /* Charysz.Wojciech.appCuisineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2945201E326AF6003E5A59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Wojciech Charysz";
+				TargetAttributes = {
+					EC2945271E326AF6003E5A59 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EC29453B1E326AF6003E5A59 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC2945271E326AF6003E5A59;
+					};
+				};
+			};
+			buildConfigurationList = EC2945231E326AF6003E5A59 /* Build configuration list for PBXProject "Charysz.Wojciech.appCuisine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC29451F1E326AF6003E5A59;
+			productRefGroup = EC2945291E326AF6003E5A59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2945271E326AF6003E5A59 /* Charysz.Wojciech.appCuisine */,
+				EC29453B1E326AF6003E5A59 /* Charysz.Wojciech.appCuisineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2945261E326AF6003E5A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2945361E326AF6003E5A59 /* LaunchScreen.storyboard in Resources */,
+				EC2945331E326AF6003E5A59 /* Assets.xcassets in Resources */,
+				EC2945311E326AF6003E5A59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC29453A1E326AF6003E5A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD40BE0975D6B5FC7C0394E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Charysz.Wojciech.appCuisine/Pods-Charysz.Wojciech.appCuisine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E00244B36D549F4126D5BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6312EC05311552610E59F2CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Charysz.Wojciech.appCuisine/Pods-Charysz.Wojciech.appCuisine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2945241E326AF6003E5A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2945511E332DEE003E5A59 /* Photo.swift in Sources */,
+				EC2945541E332FE7003E5A59 /* EarthDateTransform.swift in Sources */,
+				EC2945561E3338DF003E5A59 /* NetworkController.swift in Sources */,
+				EC29454F1E3328FD003E5A59 /* NasaMarsRoverTableViewCell.swift in Sources */,
+				EC29452E1E326AF6003E5A59 /* ViewController.swift in Sources */,
+				EC29452C1E326AF6003E5A59 /* AppDelegate.swift in Sources */,
+				EC2945581E336040003E5A59 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2945381E326AF6003E5A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2945411E326AF6003E5A59 /* Charysz_Wojciech_appCuisineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC29453E1E326AF6003E5A59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2945271E326AF6003E5A59 /* Charysz.Wojciech.appCuisine */;
+			targetProxy = EC29453D1E326AF6003E5A59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC29452F1E326AF6003E5A59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2945301E326AF6003E5A59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC2945341E326AF6003E5A59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2945351E326AF6003E5A59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2945431E326AF6003E5A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC2945441E326AF6003E5A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2945461E326AF6003E5A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC0FD5F38BD48281A5D240B /* Pods-Charysz.Wojciech.appCuisine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Charysz.Wojciech.appCuisine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wojciech.charysz.Charysz-Wojciech-appCuisine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC2945471E326AF6003E5A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3306F8BDC9DC5E4A618765C3 /* Pods-Charysz.Wojciech.appCuisine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Charysz.Wojciech.appCuisine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wojciech.charysz.Charysz-Wojciech-appCuisine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC2945491E326AF6003E5A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Charysz.Wojciech.appCuisineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wojciech.charysz.Charysz-Wojciech-appCuisineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charysz.Wojciech.appCuisine.app/Charysz.Wojciech.appCuisine";
+			};
+			name = Debug;
+		};
+		EC29454A1E326AF6003E5A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Charysz.Wojciech.appCuisineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wojciech.charysz.Charysz-Wojciech-appCuisineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charysz.Wojciech.appCuisine.app/Charysz.Wojciech.appCuisine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2945231E326AF6003E5A59 /* Build configuration list for PBXProject "Charysz.Wojciech.appCuisine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2945431E326AF6003E5A59 /* Debug */,
+				EC2945441E326AF6003E5A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2945451E326AF6003E5A59 /* Build configuration list for PBXNativeTarget "Charysz.Wojciech.appCuisine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2945461E326AF6003E5A59 /* Debug */,
+				EC2945471E326AF6003E5A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2945481E326AF6003E5A59 /* Build configuration list for PBXNativeTarget "Charysz.Wojciech.appCuisineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2945491E326AF6003E5A59 /* Debug */,
+				EC29454A1E326AF6003E5A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2945201E326AF6003E5A59 /* Project object */;
+}
